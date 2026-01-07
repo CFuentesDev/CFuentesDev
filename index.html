@@ -1,1 +1,214 @@
-<h1>Hola Mundo</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Cristian Fuentes</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #f3f4f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        header {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-info h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: var(--primary-color);
+        }
+
+        .header-links a {
+            text-decoration: none;
+            color: var(--text-light);
+            margin-left: 15px;
+            font-size: 0.9rem;
+        }
+
+        .header-links a:hover {
+            color: var(--primary-color);
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            border-left: 4px solid var(--primary-color);
+            padding-left: 15px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .card {
+            border: 1px solid #e5e7eb;
+            padding: 20px;
+            border-radius: 6px;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-color);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .tag {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: bold;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            background: #fff;
+            border: 1px solid var(--primary-color);
+            padding: 8px 15px;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 600px) {
+            .project-grid { grid-template-columns: 1fr; }
+            header { flex-direction: column; text-align: center; }
+            .header-links { margin-top: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="header-info">
+            <h1>Cristian Fuentes</h1>
+            <p>Software Developer | DevOps & Solutions Architect</p>
+        </div>
+        <div class="header-links">
+            <a href="https://github.com/CFuentesDev" target="_blank">GitHub</a>
+            <a href="mailto:tu-email@ejemplo.com">Email</a>
+            <a href="https://www.fuentesvalenzuela.cl" target="_blank">Portfolio</a>
+        </div>
+    </header>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Desarrollador enfocado en la creación de soluciones escalables y automatización de procesos. Apasionado por el software libre (FLOSS), el web scraping ético y el desarrollo de arquitecturas eficientes.</p>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos Destacados</h2>
+        <div class="project-grid">
+            <div class="card">
+                <h3>Go Project AI</h3>
+                <p>Agente inteligente para el juego Go utilizando técnicas de aprendizaje por refuerzo.</p>
+                <div class="tech-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">TensorFlow</span>
+                    <span class="tag">AI</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3>We Charge App</h3>
+                <p>Aplicación móvil para la gestión y localización de estaciones de carga de vehículos eléctricos.</p>
+                <div class="tech-tags">
+                    <span class="tag">React Native</span>
+                    <span class="tag">Maps API</span>
+                    <span class="tag">Mobile</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Tsukuyomi Block</h3>
+                <p>Juego basado en Unity que combina mecánicas de puzzle con elementos inspirados en blockchain.</p>
+                <div class="tech-tags">
+                    <span class="tag">Unity</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">Game Dev</span>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Cat Name Generator</h3>
+                <p>Aplicación web creativa para generar nombres de gatos de forma aleatoria.</p>
+                <div class="tech-tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Frontend</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades Técnicas</h2>
+        <ul class="skills-list">
+            <li>JavaScript / TypeScript</li>
+            <li>Python (Data Science & AI)</li>
+            <li>React & React Native</li>
+            <li>DevOps (CI/CD)</li>
+            <li>Web Scraping</li>
+            <li>Cloud Solutions</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Interesado en trabajar juntos? Puedes encontrar más detalles sobre mis repositorios y contribuciones en mi perfil oficial.</p>
+        <p><strong>Ubicación:</strong> Chile</p>
+    </section>
+</div>
+
+</body>
+</html>
