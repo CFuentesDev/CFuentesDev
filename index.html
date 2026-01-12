@@ -158,6 +158,66 @@
             margin-bottom: 10px;
         }
 
+/* ESTILOS DE PROYECTOS GITHUB */
+        .github-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .project-card {
+            border: 1px solid var(--accent-bg);
+            padding: 20px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(109, 40, 217, 0.1);
+            border-color: var(--secondary-color);
+        }
+
+        .project-card h3 {
+            margin: 0 0 10px 0;
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .project-card h3::before {
+            content: "📂";
+            margin-right: 8px;
+            font-size: 0.9rem;
+        }
+
+        .project-card p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 15px;
+        }
+
+        .tag-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .tag-small {
+            font-size: 0.7rem;
+            background: var(--accent-bg);
+            color: var(--primary-color);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
         @media (max-width: 768px) {
             .grid-2, .header-main { display: block; }
             .contact-info { grid-template-columns: 1fr; }
@@ -195,6 +255,61 @@
             <span class="tag">Python</span><span class="tag">XML</span><span class="tag">Odoo ERP</span>
             <span class="tag">Docker</span><span class="tag">GitHub</span><span class="tag">SQL</span>
             <span class="tag">ETL</span><span class="tag">Grafana</span><span class="tag">Ciberseguridad</span>
+        </div>
+    </section>
+
+    <section id="github-projects">
+        <h2>Proyectos Destacados</h2>
+        <div class="github-grid">
+            
+            <a href="https://github.com/CFuentesDev/correspondence" target="_blank" class="project-card">
+                <div>
+                    <h3>Gestión de Correspondencias</h3>
+                    <p>Repositorio de módulo personalizado para Odoo ERP, incluyendo flujos de validación y reportes avanzados en XML/Python.</p>
+                </div>
+                <div class="tag-row">
+                    <span class="tag-small">Python</span>
+                    <span class="tag-small">XML</span>
+                    <span class="tag-small">Odoo</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/CFuentesDev/web_drivers" target="_blank" class="project-card">
+                <div>
+                    <h3>Controladores Webs Personalizados</h3>
+                    <p>Repositorio de módulo personalizado para Odoo ERP, incluyendo controladores webs en XML/Python.</p>
+                </div>
+                <div class="tag-row">
+                    <span class="tag-small">Python</span>
+                    <span class="tag-small">XML</span>
+                    <span class="tag-small">Odoo</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/CFuentesDev/custom_certificate" target="_blank" class="project-card">
+                <div>
+                    <h3>Certificados Personalizados</h3>
+                    <p>Repositorio de módulo personalizado para Odoo ERP, incluyendo nuevas plantillas de certificados en XML/Python.</p>
+                </div>
+                <div class="tag-row">
+                    <span class="tag-small">Python</span>
+                    <span class="tag-small">XML</span>
+                    <span class="tag-small">Odoo</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/CFuentesDev/Calendario_wp" target="_blank" class="project-card">
+                <div>
+                    <h3>Calendario Personalizado</h3>
+                    <p>Repositorio de módulo personalizado para Wordpress, incluyendo nuevos componentes en shortcode.</p>
+                </div>
+                <div class="tag-row">
+                    <span class="tag-small">PHP</span>
+                    <span class="tag-small">JavaScript</span>
+                    <span class="tag-small">CSS3</span>
+                </div>
+            </a>
+
         </div>
     </section>
 
