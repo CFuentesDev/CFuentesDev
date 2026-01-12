@@ -1,17 +1,16 @@
-# Hola, soy Carlos Fuentes 👋
+# Hola, soy Carlos Fuentes 👋 <img src="https://komarev.com/ghpvc/?username=CFuentesDev&label=Perfil%20Visto&color=581c87&style=flat" alt="CFuentesDev" />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=CFuentesDev&label=Perfil%20Visto&color=581c87&style=flat" alt="CFuentesDev" />
-</p>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Source+Code+Pro&size=24&pause=1000&color=FFFFFF&width=620&&lines=Estudiante+de+Ingeniería+Informática;Programador+Junior;Desarrollador+Web;Implementación+Odoo+y+Flujos+ETL;Gestión+de+Entornos+Docker+y+DevOps;Apacionado+por+el+Software+Libre" alt="typing" />
+</div>
 
+---
 ### 🚀 Estudiante de Ingeniería Informática | Especialista Odoo, ETL & DevOps
 Soy un apasionado de la optimización de procesos y la gestión de infraestructura digital. Mi enfoque principal es el ecosistema **Odoo**, la automatización mediante procesos **ETL** y el despliegue eficiente con **Docker**. Actualmente, transformo datos en decisiones estratégicas mediante **Grafana** y gestiono proyectos bajo metodologías ágiles.
 
 ---
 
-### 🛠️ Tecnologías y Herramientas
-
-**Lenguajes**
+### 🛠️ Lenguajes de Programación
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
@@ -20,22 +19,15 @@ Soy un apasionado de la optimización de procesos y la gestión de infraestructu
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![XML](https://img.shields.io/badge/XML-581c87?style=for-the-badge)
 
-**Frameworks**
+### 🛠️ Herramientas de desarrollo
+| Frameworks | CMS | Despliegues | Bases de Datos| Graficos |
+| :--- | :--- | :--- | :--- | :--- |
+| ![Odoo](https://img.shields.io/badge/Odoo-875A7B?style=for-the-badge&logo=odoo&logoColor=white) | ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) | ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) | ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white) |
 
-![Odoo](https://img.shields.io/badge/Odoo-875A7B?style=for-the-badge&logo=odoo&logoColor=white)
-
-**Infraestructura y Datos**
-
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-**Seguridad y Gestión**
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Ciberseguridad](https://img.shields.io/badge/Ciberseguridad-purple?style=for-the-badge)
-
+### 🛠️ Herramientas personales
+| Sistema | Reuniones | Ofimatica | Navegador | Diseños |
+| :--- | :--- | :--- | :--- | :--- |
+| ![Zorin OS](https://img.shields.io/badge/-Zorin%20OS-%2310AAEB?style=for-the-badge&logo=zorin&logoColor=white) | ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) | ![LibreOffice](https://img.shields.io/badge/LibreOffice-%2318A303?style=for-the-badge&logo=LibreOffice&logoColor=white) | ![Zen](https://img.shields.io/badge/Zen-%23F76F53.svg?style=for-the-badge&logo=zenbrowser&logoColor=white) | ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) |
 ---
 
 ### 💼 Experiencia Relevante
